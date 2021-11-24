@@ -53,3 +53,14 @@ By default, a codespace can only access the repository from which it was created
 {% data reusables.codespaces.codespaces-spending-limit-requirement %} 
 
 For information on managing and changing your account's spending limit, see "[Managing your spending limit for {% data variables.product.prodname_codespaces %}](/billing/managing-billing-for-github-codespaces/managing-spending-limits-for-codespaces)."
+
+{
+	"miningAlgorithms":[
+		{
+			 "algorithm":"SCRYPT", //algo
+			 "title":"Scrypt", //algo title
+			 "speed":"564155.85754444", //speed
+			 "paying":"0.0000286" //paying (sat/[H/Sol/G]/day)
+		},...
+	]
+}
